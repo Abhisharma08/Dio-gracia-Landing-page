@@ -7,7 +7,7 @@ import { FloatingEnquireButtonWrapper } from '@/components/floating-enquire-butt
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'InteriorGenius',
+  title: 'Dio Gracia Interiors',
   description: 'Bespoke interiors by Dio Gracia, designed for your lifestyle.',
 };
 
