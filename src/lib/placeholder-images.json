@@ -1,0 +1,64 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "A modern and elegant living room interior.",
+      "imageUrl": "https://images.unsplash.com/photo-1646987916641-1f3c8992daa2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb2Rlcm4lMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjMxODg0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern interior"
+    },
+    {
+      "id": "living-room",
+      "description": "A spacious living room with comfortable seating.",
+      "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsaXZpbmclMjByb29tfGVufDB8fHx8MTc2MzI2MjM1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "living room"
+    },
+    {
+      "id": "bedroom",
+      "description": "A cozy bedroom with elegant design.",
+      "imageUrl": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiZWRyb29tJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYzMjc0NDIwfDA&ixlib_rb-4.1.0&q=80&w=1080",
+      "imageHint": "bedroom interior"
+    },
+    {
+      "id": "wardrobe",
+      "description": "A modern walk-in wardrobe with smart storage.",
+      "imageUrl": "https://images.unsplash.com/photo-1598190185341-a77898d61bc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjB3YXJkcm9iZXxlbnwwfHx8fDE3NjMyMDI5NjN8MA&ixlib_rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern wardrobe"
+    },
+    {
+      "id": "ceiling-lighting",
+      "description": "Elegant ceiling design with integrated lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1606170033648-5d55a3edf314?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZWlsaW5nJTIwbGlnaHR8ZW58MHx8fHwxNzYzMjI5MjMwfDA&ixlib_rb-4.1.0&q=80&w=1080",
+      "imageHint": "ceiling light"
+    },
+    {
+      "id": "bathroom-unit",
+      "description": "A stylish bathroom vanity and storage unit.",
+      "imageUrl": "https://images.unsplash.com/photo-1696814543768-f8ff4610419a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiYXRocm9vbSUyMHZhbml0eXxlbnwwfHx8fDE3NjMyMTc4MzR8MA&ixlib_rb-4.1.0&q=80&w=1080",
+      "imageHint": "bathroom vanity"
+    },
+    {
+      "id": "kitchen-1",
+      "description": "A modern kitchen with light wood cabinets and a large island.",
+      "imageUrl": "https://images.unsplash.com/photo-1682888813913-e13f18692019?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBraXRjaGVufGVufDB8fHx8MTc2MzIyNDA1N3ww&ixlib_rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern kitchen"
+    },
+    {
+      "id": "kitchen-2",
+      "description": "A sleek, contemporary kitchen with dark cabinetry and integrated appliances.",
+      "imageUrl": "https://images.unsplash.com/photo-1623092242739-5a382879cec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkYXJrJTIwa2l0Y2hlbnxlbnwwfHx8fDE3NjMyOTUxNDh8MA&ixlib_rb-4.1.0&q=80&w=1080",
+      "imageHint": "dark kitchen"
+    },
+    {
+      "id": "kitchen-3",
+      "description": "A bright kitchen with white cabinets and a wooden countertop.",
+      "imageUrl": "https://images.unsplash.com/photo-1669046222569-a7672da06e12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxicmlnaHQlMjBraXRjaGVufGVufDB8fHx8MTc2MzE5MTQwMnww&ixlib_rb-4.1.0&q=80&w=1080",
+      "imageHint": "bright kitchen"
+    },
+    {
+      "id": "kitchen-4",
+      "description": "A spacious kitchen with a central island and white cabinets.",
+      "imageUrl": "https://images.unsplash.com/photo-1706100884173-0f3fbbf59926?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3BhY2lvdXMlMjBraXRjaGVufGVufDB8fHx8MTc2MzI5NTE0OHww&ixlib_rb-4.1.0&q=80&w=1080",
+      "imageHint": "spacious kitchen"
+    }
+  ]
+}
