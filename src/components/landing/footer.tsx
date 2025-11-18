@@ -22,11 +22,13 @@ export function Footer() {
           </Button>
         </div>
       </div>
-      <div className="container mt-16 text-center">
-        <p className="text-sm text-foreground/50">
-          © 2025 Dio Gracia Interiors. All Rights Reserved.
-        </p>
-      </div>
+    <div className="w-full mt-16 flex justify-center">
+  <p className="text-sm text-foreground/50 text-center">
+    © 2025 Dio Gracia Interiors. All Rights Reserved.
+  </p>
+</div>
+
+
     </footer>
   );
 }
