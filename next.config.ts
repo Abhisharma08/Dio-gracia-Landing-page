@@ -1,6 +1,7 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
+    basePath: "/home-interiors-and-modular-kitchen",
   /* config options here */
   typescript: {
     ignoreBuildErrors: true,
