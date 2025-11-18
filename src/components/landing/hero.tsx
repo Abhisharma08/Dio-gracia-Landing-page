@@ -27,11 +27,8 @@ export function Hero() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-headline font-bold tracking-tight text-shadow-lg">
             Transform Your Space, Elevate Your Life.
           </h1>
-          <h2 className="text-lg sm:text-xl md:text-2xl font-body text-white/90 text-shadow">
-            Experience the comfort of personalised <span className="text-primary">home interiors in Dehradun.</span>
-          </h2>
           <p className="font-body text-white/80 text-base sm:text-lg">
-           Avail the best home interiors in Dehradun, designed for durability, daily use, and practical living.
+           Avail the <span className="text-primary">best home interiors and modular kitchens in Dehradun,</span> designed for durability, daily use, and practical living.
           </p>
         </div>
         <div
