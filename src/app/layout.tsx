@@ -8,7 +8,7 @@ import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'Dio Graciaa',
-  description: 'Bespoke interiors by Dio Gracia, designed for your lifestyle.',
+  description: 'Bespoke interiors by Dio Graciaa, designed for your lifestyle.',
 };
 
 export default function RootLayout({

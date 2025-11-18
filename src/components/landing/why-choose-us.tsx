@@ -52,7 +52,7 @@ export function WhyChooseUs() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-headline font-bold mb-4">
-            Why Choose <span className="text-primary">Dio Gracia?</span>
+            Why Choose <span className="text-primary">Dio Graciaa?</span>
           </h2>
           <p className="text-base sm:text-lg text-foreground/80 mb-12">
             We blend artistry with practicality to create spaces that are not

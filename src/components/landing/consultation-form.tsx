@@ -124,7 +124,7 @@ export function ConsultationForm() {
         className="space-y-4 overflow-hidden relative"
       >
         <h3 className="text-xl font-headline font-semibold text-white">
-          Book Your Free Personalized Consultation
+          Book Your Consultation
         </h3>
 
         <AnimatePresence mode="wait">

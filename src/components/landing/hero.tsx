@@ -20,19 +20,18 @@ export function Hero() {
           priority
         />
       )}
-      <div className="absolute inset-0 bg-black/60" />
+  {/* Full black overlay: visible on all screen sizes */}
+  <div className="absolute inset-0 bg-black/90" />
       <div className="relative z-10 container max-w-6xl grid md:grid-cols-2 gap-8 md:gap-16 items-center px-4">
         <div className="text-left space-y-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-headline font-bold tracking-tight text-shadow-lg">
             Transform Your Space, Elevate Your Life.
           </h1>
           <h2 className="text-lg sm:text-xl md:text-2xl font-body text-white/90 text-shadow">
-            Bespoke Interiors Designed for Your Lifestyle. Built to Last.
+            Experience the comfort of personalised <span className="text-primary">home interiors in Dehradun.</span>
           </h2>
           <p className="font-body text-white/80 text-base sm:text-lg">
-            From stunning kitchens to serene bedrooms, we create organized,
-            smarter homes that reflect your personality and stand the test of
-            time.
+           Avail the best home interiors in Dehradun, designed for durability, daily use, and practical living.
           </p>
         </div>
         <div

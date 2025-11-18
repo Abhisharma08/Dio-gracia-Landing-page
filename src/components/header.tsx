@@ -25,7 +25,7 @@ export function Header() {
         <Link href="/" className="mr-6 flex items-center space-x-2">
           <Image
             src="https://diograciaa.com/wp-content/uploads/2025/01/Dio-Logo-.png"
-            alt="Dio Gracia Interiors Logo"
+            alt="Dio Graciaa Interiors Logo"
             width={150}
             height={40}
             className="object-contain"

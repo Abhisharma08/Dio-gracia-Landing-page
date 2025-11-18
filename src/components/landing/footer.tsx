@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto px-4 text-center space-y-6">
         <h3 className="text-3xl md:text-4xl font-headline font-bold">
           Ready to Experience the{' '}
-          <span className="text-primary">Dio Gracia Difference?</span>
+          <span className="text-primary">Dio Graciaa Difference?</span>
         </h3>
         <p className="text-base sm:text-lg text-foreground/80 max-w-2xl mx-auto">
           Let's create a practical, long-lasting interior that you'll love for
@@ -24,7 +24,7 @@ export function Footer() {
       </div>
     <div className="w-full mt-16 flex justify-center">
   <p className="text-sm text-foreground/50 text-center">
-    © 2025 Dio Gracia Interiors. All Rights Reserved.
+    © 2025 Dio Graciaa. All Rights Reserved.
   </p>
 </div>
 
