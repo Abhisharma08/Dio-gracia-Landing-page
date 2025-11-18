@@ -29,7 +29,7 @@ import { useRouter } from 'next/navigation';
 const formSchema = z.object({
   fullName: z.string().min(2, 'Name must be at least 2 characters.'),
   email: z.string().email('Please enter a valid email address.'),
-  phone: z.string().min(10, 'Phone number must be at least 10 digits.'),
+  phone: z.string().regex(/^\d{10}$/, 'Phone number must be 10 digits.'),
   city: z.string().min(2, 'City must be at least 2 characters.'),
   requirement: z.enum([
     'Kitchens',
@@ -146,7 +146,7 @@ export function ConsultationForm() {
                     <FormLabel className="text-white/80">Full Name</FormLabel>
                     <FormControl>
                       <Input
-                        placeholder="Your Name"
+                        placeholder="Enter Your Name"
                         {...field}
                         className="bg-white/10 border-white/20 text-white placeholder:text-white/50"
                       />
@@ -166,7 +166,7 @@ export function ConsultationForm() {
                     <FormControl>
                       <Input
                         type="email"
-                        placeholder="username@example.com"
+                        placeholder="Enter Your Email"
                         {...field}
                         className="bg-white/10 border-white/20 text-white placeholder:text-white/50"
                       />
@@ -186,7 +186,7 @@ export function ConsultationForm() {
                     <FormControl>
                       <Input
                         type="tel"
-                        placeholder="9876543021"
+                        placeholder="Enter Your Phone Number"
                         {...field}
                         className="bg-white/10 border-white/20 text-white placeholder:text-white/50"
                       />
@@ -225,7 +225,7 @@ export function ConsultationForm() {
                     <FormLabel className="text-white/80">City</FormLabel>
                     <FormControl>
                       <Input
-                        placeholder="e.g., New Delhi"
+                        placeholder="Enter your city name"
                         {...field}
                         className="bg-white/10 border-white/20 text-white placeholder:text-white/50"
                       />

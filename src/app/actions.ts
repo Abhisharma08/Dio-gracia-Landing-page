@@ -34,65 +34,50 @@ async function createOrUpdateHubspotContact(
     };
   }
 
-  const endpoint = `https://api.hubapi.com/crm/v3/objects/contacts/${email}?idProperty=email`;
-
-  const [firstName, ...lastNameParts] =
-    properties.fullName?.split(' ') || [];
+  const [firstName, ...lastNameParts] = properties.fullName?.split(' ') || [];
   const lastName = lastNameParts.join(' ');
 
-  const hubspotProperties = {
+  const hubspotProperties: Record<string, any> = {
+    email,
     firstname: firstName,
     lastname: lastName,
     phone: properties.phone,
-    city: properties.city,
     lifecyclestage: 'lead',
-    what_are_you_looking_for_: properties.requirement
-      ? properties.requirement.toLowerCase().replace(/ /g, '_')
-      : undefined,
   };
 
+  if (properties.city) {
+    hubspotProperties.city = properties.city;
+  }
+  if (properties.requirement) {
+    hubspotProperties.what_are_you_looking_for_ = properties.requirement
+      .toLowerCase()
+      .replace(/ /g, '_');
+  }
+  
+  const endpoint = `https://api.hubapi.com/contacts/v1/contact/createOrUpdate/email/${encodeURIComponent(email)}/`;
+
   try {
-    const response = await axios.patch(endpoint, { properties: hubspotProperties }, {
-      headers: {
-        Authorization: `Bearer ${hubspotAccessToken}`,
-        'Content-Type': 'application/json',
-      },
-    });
-    console.log('HubSpot contact updated:', response.data);
+    const response = await axios.post(
+      endpoint,
+      { properties: Object.entries(hubspotProperties).map(([key, value]) => ({ property: key, value })) },
+      {
+        headers: {
+          Authorization: `Bearer ${hubspotAccessToken}`,
+          'Content-Type': 'application/json',
+        },
+      }
+    );
+    console.log('HubSpot contact created/updated:', response.data);
     return { success: true, hubspotVid: response.data.vid };
   } catch (error: any) {
-    if (error.response && error.response.status === 404) {
-      try {
-        const createEndpoint = `https://api.hubapi.com/crm/v3/objects/contacts`;
-        const createResponse = await axios.post(
-          createEndpoint,
-          { properties: { ...hubspotProperties, email } },
-          {
-            headers: {
-              Authorization: `Bearer ${hubspotAccessToken}`,
-              'Content-Type': 'application/json',
-            },
-          }
-        );
-        console.log('HubSpot contact created:', createResponse.data);
-        return { success: true, hubspotVid: createResponse.data.vid };
-      } catch (createError: any) {
-        console.error(
-          'HubSpot create error:',
-          createError.response?.data || createError.message
-        );
-        return {
-          success: false,
-          message: 'Could not save contact to HubSpot.',
-        };
-      }
-    } else {
-      console.error(
-        'HubSpot update error:',
-        error.response?.data || error.message
-      );
-      return { success: false, message: 'Could not update contact in HubSpot.' };
-    }
+    console.error(
+      'HubSpot create/update error:',
+      error.response?.data || error.message
+    );
+    return {
+      success: false,
+      message: 'Could not save contact to HubSpot.',
+    };
   }
 }
 
@@ -107,8 +92,6 @@ export async function handlePartialConsultation(values: {
     return { success: false, message: 'Invalid data provided.' };
   }
   
-  // In a real application, you would save this to a database,
-  // send an email, or integrate with a CRM.
   console.log('Partial consultation request:', parsed.data);
   
   return createOrUpdateHubspotContact(parsed.data.email, parsed.data);
@@ -133,8 +116,6 @@ export async function handleFullConsultation(values: {
     return { success: false, message: 'Invalid data provided.' };
   }
 
-  // In a real application, you would save this to a database,
-  // send an email, or integrate with a CRM.
   console.log('Full consultation request:', parsed.data);
 
   return createOrUpdateHubspotContact(parsed.data.email, parsed.data);

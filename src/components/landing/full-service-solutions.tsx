@@ -33,7 +33,7 @@ const solutions = [
       'Spa-like bathrooms with waterproof vanities, modern fixtures, and smart storage that combines hygiene with style.',
   },
   {
-    id: 'kitchen-4',
+    id: 'complete-home',
     title: 'Complete Home Solutions',
     description:
       'End-to-end interior design for your entire home with cohesive design language and seamless execution.',

@@ -21,7 +21,7 @@
     {
       "id": "wardrobe",
       "description": "A modern walk-in wardrobe with smart storage.",
-      "imageUrl": "https://images.unsplash.com/photo-1598190185341-a77898d61bc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjB3YXJkcm9iZXxlbnwwfHx8fDE3NjMyMDI5NjN8MA&ixlib_rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/ds4jns6xy/image/upload/v1763444094/pexels-pixabay-271722_ggkqnz.jpg",
       "imageHint": "modern wardrobe"
     },
     {
@@ -32,9 +32,9 @@
     },
     {
       "id": "bathroom-unit",
-      "description": "A stylish bathroom vanity and storage unit.",
-      "imageUrl": "https://images.unsplash.com/photo-1696814543768-f8ff4610419a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiYXRocm9vbSUyMHZhbml0eXxlbnwwfHx8fDE3NjMyMTc4MzR8MA&ixlib_rb-4.1.0&q=80&w=1080",
-      "imageHint": "bathroom vanity"
+      "description": "A modern bathroom with premium fixtures and a relaxing ambiance.",
+      "imageUrl": "https://res.cloudinary.com/ds4jns6xy/image/upload/v1763444415/pexels-heyho-6207947_fue9pm.jpg",
+      "imageHint": "modern bathroom"
     },
     {
       "id": "kitchen-1",
@@ -45,8 +45,8 @@
     {
       "id": "kitchen-2",
       "description": "A sleek, contemporary kitchen with dark cabinetry and integrated appliances.",
-      "imageUrl": "https://images.unsplash.com/photo-1623092242739-5a382879cec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkYXJrJTIwa2l0Y2hlbnxlbnwwfHx8fDE3NjMyOTUxNDh8MA&ixlib_rb-4.1.0&q=80&w=1080",
-      "imageHint": "dark kitchen"
+      "imageUrl": "https://res.cloudinary.com/ds4jns6xy/image/upload/v1763443978/modular_cubk4i.jpg",
+      "imageHint": "modular kitchen"
     },
     {
       "id": "kitchen-3",
@@ -55,10 +55,10 @@
       "imageHint": "bright kitchen"
     },
     {
-      "id": "kitchen-4",
-      "description": "A spacious kitchen with a central island and white cabinets.",
-      "imageUrl": "https://images.unsplash.com/photo-1706100884173-0f3fbbf59926?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3BhY2lvdXMlMjBraXRjaGVufGVufDB8fHx8MTc2MzI5NTE0OHww&ixlib_rb-4.1.0&q=80&w=1080",
-      "imageHint": "spacious kitchen"
+      "id": "complete-home",
+      "description": "A beautiful and cohesive living space, showcasing an end-to-end interior design.",
+      "imageUrl": "https://res.cloudinary.com/ds4jns6xy/image/upload/v1763444273/pexels-falling4utah-1080721_tbwxwo.jpg",
+      "imageHint": "complete home"
     }
   ]
 }
