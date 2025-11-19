@@ -21,14 +21,14 @@ const solutions = [
       'Walk-in closets and sliding wardrobes with intelligent compartments for jewelry, shoes, and accessories – everything in its place.',
   },
   {
-    id: 'ceiling-lighting',
-    title: 'Ceilings & Lighting',
+    id: 'entertainment-unit',
+    title: 'Entertainment Units',
     description:
-      "Dramatic false ceilings, ambient lighting designs, and statement fixtures that transform your space's mood and character.",
+      "Dramatic panel structures, integrated ambient lighting, and bold architectural elements that redefine the visual impact of your entertainment unit.",
   },
   {
-    id: 'bathroom-unit',
-    title: 'Bathroom Units',
+    id: 'bathroom-vanity',
+    title: 'Bathroom Vanity',
     description:
       'Spa-like bathrooms with waterproof vanities, modern fixtures, and smart storage that combines hygiene with style.',
   },

@@ -25,16 +25,16 @@
       "imageHint": "modern wardrobe"
     },
     {
-      "id": "ceiling-lighting",
+      "id": "entertainment-unit",
       "description": "Elegant ceiling design with integrated lighting.",
-      "imageUrl": "https://images.unsplash.com/photo-1606170033648-5d55a3edf314?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZWlsaW5nJTIwbGlnaHR8ZW58MHx8fHwxNzYzMjI5MjMwfDA&ixlib_rb-4.1.0&q=80&w=1080",
-      "imageHint": "ceiling light"
+      "imageUrl": "https://res.cloudinary.com/ds4jns6xy/image/upload/v1763535159/pexels-houzlook-3423817_ash8rg.jpg",
+      "imageHint": "Entertainment Unit"
     },
     {
-      "id": "bathroom-unit",
+      "id": "bathroom-vanity",
       "description": "A modern bathroom with premium fixtures and a relaxing ambiance.",
-      "imageUrl": "https://res.cloudinary.com/ds4jns6xy/image/upload/v1763444415/pexels-heyho-6207947_fue9pm.jpg",
-      "imageHint": "modern bathroom"
+      "imageUrl": "https://res.cloudinary.com/ds4jns6xy/image/upload/v1763535717/pexels-fotoaibe-1571462_x8gf88.jpg",
+      "imageHint": "modern bathroom vanity"
     },
     {
       "id": "kitchen-1",
