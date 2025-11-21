@@ -29,16 +29,22 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
           rel="stylesheet"
         />
-        {/* Sample Google Ads Global Site Tag (gtag.js) - Replace AW-YOUR_CONVERSION_ID with your actual ID */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17726348040"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-17726348040');
-</script>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17726348040"
+          strategy="afterInteractive"
+        />
+
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17726348040');
+          `}
+        </Script>
       </head>
+
       <body
         className={cn(
           'min-h-screen bg-background font-body text-foreground antialiased'
