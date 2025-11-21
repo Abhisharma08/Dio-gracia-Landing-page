@@ -30,19 +30,14 @@ export default function RootLayout({
           rel="stylesheet"
         />
         {/* Sample Google Ads Global Site Tag (gtag.js) - Replace AW-YOUR_CONVERSION_ID with your actual ID */}
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-YOUR_CONVERSION_ID"
-        />
-        <Script id="google-analytics">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17726348040"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-            gtag('config', 'AW-YOUR_CONVERSION_ID');
-          `}
-        </Script>
+  gtag('config', 'AW-17726348040');
+</script>
       </head>
       <body
         className={cn(
