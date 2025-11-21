@@ -14,7 +14,7 @@ export default function ThankYouPage() {
       */}
       <Script id="google-ads-conversion">
         {`
-          gtag('event', 'conversion', {'send_to': 'AW-YOUR_CONVERSION_ID/YOUR_CONVERSION_LABEL'});
+          gtag('event', 'conversion', {'send_to': 'AW-17726348040/F-J4CKnvlcQbEIi2yoRC'});
         `}
       </Script>
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-80px)] bg-background text-center px-4">
