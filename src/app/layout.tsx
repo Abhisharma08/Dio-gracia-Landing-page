@@ -43,6 +43,42 @@ export default function RootLayout({
             gtag('config', 'AW-17726348040');
           `}
         </Script>
+
+        <Script
+          id="gtag-phone-1"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              gtag('config', 'AW-17726348040/vH7SCOWz7sUbEIi2yoRC', {
+                phone_conversion_number: '078950 92061'
+              });
+            `,
+          }}
+        />
+
+        <Script
+          id="gtag-phone-2"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              gtag('config', 'AW-17726348040/HYx0CPeW-sUbEIi2yoRC', {
+                phone_conversion_number: '078170 00873'
+              });
+            `,
+          }}
+        />
+
+        <Script
+          id="gtag-phone-3"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              gtag('config', 'AW-17726348040/oH2FCPSW-sUbEIi2yoRC', {
+                phone_conversion_number: '078170 00879'
+              });
+            `,
+          }}
+        />
       </head>
 
       <body
