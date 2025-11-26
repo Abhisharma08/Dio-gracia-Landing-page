@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useState } from 'react';
@@ -45,6 +44,11 @@ export function Header() {
         </nav>
 
         <div className="flex items-center justify-end space-x-4">
+          {/* Added Phone Number for Desktop */}
+          <span className="hidden lg:block text-sm font-medium text-foreground mr-2">
+            +91 78950 92061
+          </span>
+          
           <Button asChild className="hidden sm:inline-flex">
             <Link href="#consultation-form">Book Consultation</Link>
           </Button>
@@ -69,6 +73,10 @@ export function Header() {
                       {link.label}
                     </Link>
                   ))}
+                  {/* Added Phone Number for Mobile Menu */}
+                  <div className="text-lg font-medium text-foreground py-2">
+                    +91 78950 92061
+                  </div>
                   <Button
                     asChild
                     onClick={() => setIsSheetOpen(false)}
